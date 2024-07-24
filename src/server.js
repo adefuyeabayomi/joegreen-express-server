@@ -12,7 +12,6 @@ const helmet = require("helmet");
 const pingRoute = require("./routes/ping.route");
 const authRoute = require("./routes/auth.route");
 const profileRoutes = require('./routes/profile.route');
-
 const YAML = require("yamljs");
 const path = require("path");
 
@@ -25,7 +24,7 @@ let database;
 if (config.NODE_ENV == "production") {
   database = process.env.PROD_DB;
 } else if (config.NODE_ENV == "development") {
-  database = "mongodb://localhost:27017/development";
+  database = config.DEV_DB;
 } else {
   database = "mongodb://localhost:27017/test";
 }
@@ -54,8 +53,6 @@ app.use(express.json()); // body parsing middleware
 app.use("/", pingRoute);
 app.use("/auth", authRoute);
 app.use('/profile', profileRoutes);
-//setup complete
-app.use(errorHandler);
 
 // Create HTTP server
 const server = http.createServer(app);
@@ -77,6 +74,8 @@ io.on("connection", (socket) => {
   });
 });
 
+//setup complete
+app.use(errorHandler);
 // Function to start the server
 const startServer = async () => {
   try {

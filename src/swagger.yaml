@@ -506,7 +506,37 @@ paths:
           description: Account deleted
         "401":
           description: Unauthorized
-
+  /auth/is-valid:
+    get:
+      tags:
+        - Auth
+      summary: Check if token is valid
+      description: Checks if the provided token is valid
+      parameters:
+        - name: Authorization
+          in: header
+          required: true
+          schema:
+            type: string
+          description: Bearer token
+      responses:
+        200:
+          description: Token verification status
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  isVerified:
+                    type: boolean
+        401:
+          description: Token is missing
+        403:
+          description: Token is not valid
+        404:
+          description: User not found
+        500:
+          description: Internal Server Error
   /:
     get:
       summary: Performs a ping request

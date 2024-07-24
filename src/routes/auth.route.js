@@ -15,4 +15,6 @@ router.delete("/delete", verifyToken, authController.deleteAccount);
 router.put("/disable", verifyToken, authController.disableAccount);
 router.post("/forgot-password", authController.forgotPassword);
 router.post("/reset-password", authController.resetPassword);
+router.get('/is-valid', verifyToken, authController.tokenIsValid);
+
 module.exports = router;

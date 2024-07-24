@@ -1,6 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 const config = require("./config");
+const { format } = require('date-fns');
 
 // Create a write stream (in append mode)
 const accessLogStream = fs.createWriteStream(
@@ -17,21 +18,27 @@ const writeLogToFile = (data) => {
   fs.appendFileSync(path.join(__dirname, "../applog.md"), data, "utf8");
 };
 
-const formatTime = (time) => {
-  return `*${time.toISOString()}*`;
+const time = () => {
+  return format(new Date(), 'yyyy-MM-dd HH:mm:ss');
 };
 
 const formatData = (data) => {
+  let logEntry = `##${time()}\n.\n`;
+
   if (typeof data === "object") {
-    return `\`\`\`javascript\n${JSON.stringify(data, null, 2)}\n\`\`\`\n`;
+    try {
+      logEntry += `\`\`\`javascript\n${JSON.stringify(data, null, 2)}\n\`\`\`\n`;
+    } catch (error) {
+      logEntry += ` | data: [Error serializing data: ${error.message}]`;
+    }
+    return logEntry
   } else {
     return `${data}\n`;
   }
 };
 
 const infoLogger = (data) => {
-  let time = new Date();
-  let logEntry = `## Info\n${formatTime(time)}\n${formatData(data)}`;
+  let logEntry = `## Info \n.\n` + formatData(data);
 
   if (logToConsole) {
     console.info(logEntry);
@@ -41,8 +48,7 @@ const infoLogger = (data) => {
 };
 
 const errorLogger = (data) => {
-  let time = new Date();
-  let logEntry = `## Error\n${formatTime(time)}\n${formatData(data)}`;
+  let logEntry = `## Error\n.\n` + formatData(data);
 
   if (logToConsole) {
     console.error(logEntry);

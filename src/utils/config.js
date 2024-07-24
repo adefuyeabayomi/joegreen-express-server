@@ -4,6 +4,7 @@ const port = process.env.PORT || 3000;
 const host = process.env.HOST || "localhost";
 const NODE_ENV = process.env.NODE_ENV || "development";
 const PROD_DB = process.env.PROD_DB;
+const DEV_DB = process.env.DEV_DB
 const companyName = process.env.COMPANY_NAME;
 const smtpHost = process.env.SMTP_HOST;
 const smtpPassword = process.env.SMTP_PASSWORD;
@@ -21,6 +22,7 @@ module.exports = {
   host,
   NODE_ENV,
   PROD_DB,
+  DEV_DB,
   companyName,
   smtpHost,
   smtpPassword,

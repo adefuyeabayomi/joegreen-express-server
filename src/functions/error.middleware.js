@@ -1,6 +1,8 @@
 const logger = require("../utils/logger");
+const http = require('http')
 
-const errorHandler = (err, req, res) => {
+const errorHandler = (err, req, res,next) => {
+ 
   // Log the error
   logger.errorLogger(err.message);
   logger.errorLogger(err);
@@ -8,7 +10,6 @@ const errorHandler = (err, req, res) => {
   // Determine the status code
   const statusCode = res.statusCode !== 200 ? res.statusCode : 500;
 
-  // Send a generic message to the client
   res.status(statusCode).json({
     message: err.message,
     // Optionally, include the stack trace in development mode

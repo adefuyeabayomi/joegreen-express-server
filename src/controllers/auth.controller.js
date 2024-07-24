@@ -372,6 +372,21 @@ const resetPassword = async (req, res) => {
   }
 };
 
+const tokenIsValid = async (req, res) => {
+  try {
+    jwt.verify(token, config.JWT_SECRET, async (err, decoded) => {
+      if (err) {
+        return res.status(403).json({ message: 'Token is not valid'});
+      }
+
+      res.status(200).json({ isValid: true });
+    });
+  } catch (error) {
+    logger.errorLogger.error('Error in isValid:', error);
+    res.status(500).json({ message: 'Internal Server Error' });
+  }
+};
+
 module.exports = {
   signupWithEmailAndPassword,
   signupAdmin,
@@ -382,4 +397,5 @@ module.exports = {
   disableAccount,
   forgotPassword,
   resetPassword,
+  tokenIsValid
 };
