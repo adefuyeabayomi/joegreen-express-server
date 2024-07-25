@@ -411,6 +411,7 @@ const forgotPassword = async (req, res) => {
 const resetPassword = async (req, res) => {
   const { resetToken } = req.query;
   const { newPassword } = req.body;
+  console.log({resetToken,newPassword})
   try {
     const decoded = jwt.verify(resetToken, config.JWT_SECRET);
     const user = await Auth.findById(decoded.userId);
@@ -418,11 +419,9 @@ const resetPassword = async (req, res) => {
       logger.errorLogger("Invalid or expired token");
       return res.status(400).json({ message: "Invalid or expired token" });
     }
-
     user.hash = await bcrypt.hash(newPassword, 10); // Ensure to import bcrypt
     user.resetTokenString = "";
     await user.save();
-
     res.status(200).json({ message: "Password reset successful" });
   } catch (error) {
     logger.errorLogger(error.message);

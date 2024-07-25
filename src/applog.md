@@ -687,3 +687,246 @@ Error in connecting to database
 ## Info 
 .
 Server running on http://localhost:8080
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+Success : connected to database
+## Error
+.
+Email not registered
+## Info 
+.
+##2024-07-25 18:06:10
+.
+```javascript
+{
+  "accepted": [
+    "adefuyeabayomi16@gmail.com"
+  ],
+  "rejected": [],
+  "ehlo": [
+    "PIPELINING",
+    "8BITMIME",
+    "ENHANCEDSTATUSCODES",
+    "CHUNKING",
+    "AUTH PLAIN LOGIN CRAM-MD5",
+    "SIZE 20971520"
+  ],
+  "envelopeTime": 540,
+  "messageTime": 173,
+  "messageSize": 2233,
+  "response": "250 2.0.0 OK: queued as <19b41085-a00f-aece-bde7-7a266eed3594@gmail.com>",
+  "envelope": {
+    "from": "adefuyeabayomi16@gmail.com",
+    "to": [
+      "adefuyeabayomi16@gmail.com"
+    ]
+  },
+  "messageId": "<19b41085-a00f-aece-bde7-7a266eed3594@gmail.com>"
+}
+```
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Error
+.
+##2024-07-25 18:53:03
+.
+```javascript
+{
+  "code": "ETIMEOUT",
+  "syscall": "querySrv",
+  "hostname": "_mongodb._tcp.cluster0.ppt7z.mongodb.net"
+}
+```
+## Error
+.
+Error in connecting to database
+## Error
+.
+##2024-07-25 18:53:03
+.
+```javascript
+{
+  "code": "ETIMEOUT",
+  "syscall": "querySrv",
+  "hostname": "_mongodb._tcp.cluster0.ppt7z.mongodb.net"
+}
+```
+## Error
+.
+jwt malformed
+## Error
+.
+Operation `auths.findOne()` buffering timed out after 10000ms
+## Error
+.
+##2024-07-25 18:57:00
+.
+```javascript
+{}
+```
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+Success : connected to database
+## Info 
+.
+##2024-07-25 18:57:42
+.
+```javascript
+{
+  "accepted": [
+    "adefuyeabayomi16@gmail.com"
+  ],
+  "rejected": [],
+  "ehlo": [
+    "PIPELINING",
+    "8BITMIME",
+    "ENHANCEDSTATUSCODES",
+    "CHUNKING",
+    "AUTH CRAM-MD5 PLAIN LOGIN",
+    "SIZE 20971520"
+  ],
+  "envelopeTime": 462,
+  "messageTime": 255,
+  "messageSize": 2233,
+  "response": "250 2.0.0 OK: queued as <6b96ae7e-6373-7d40-3968-37135d65bc65@gmail.com>",
+  "envelope": {
+    "from": "adefuyeabayomi16@gmail.com",
+    "to": [
+      "adefuyeabayomi16@gmail.com"
+    ]
+  },
+  "messageId": "<6b96ae7e-6373-7d40-3968-37135d65bc65@gmail.com>"
+}
+```
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+Success : connected to database
+## Info 
+.
+##2024-07-25 18:59:26
+.
+```javascript
+{
+  "accepted": [
+    "adefuyeabayomi16@gmail.com"
+  ],
+  "rejected": [],
+  "ehlo": [
+    "PIPELINING",
+    "8BITMIME",
+    "ENHANCEDSTATUSCODES",
+    "CHUNKING",
+    "AUTH LOGIN CRAM-MD5 PLAIN",
+    "SIZE 20971520"
+  ],
+  "envelopeTime": 520,
+  "messageTime": 179,
+  "messageSize": 2234,
+  "response": "250 2.0.0 OK: queued as <6ad79c40-293a-7828-2cf2-d8df9070d435@gmail.com>",
+  "envelope": {
+    "from": "adefuyeabayomi16@gmail.com",
+    "to": [
+      "adefuyeabayomi16@gmail.com"
+    ]
+  },
+  "messageId": "<6ad79c40-293a-7828-2cf2-d8df9070d435@gmail.com>"
+}
+```
+## Error
+.
+jwt malformed
+## Error
+.
+Invalid or expired token
+## Error
+.
+Invalid or expired token
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Error
+.
+Operation `auths.findOne()` buffering timed out after 10000ms
+## Error
+.
+##2024-07-25 19:04:20
+.
+```javascript
+{
+  "code": "ETIMEOUT",
+  "syscall": "querySrv",
+  "hostname": "_mongodb._tcp.cluster0.ppt7z.mongodb.net"
+}
+```
+## Error
+.
+Error in connecting to database
+## Error
+.
+##2024-07-25 19:04:20
+.
+```javascript
+{
+  "code": "ETIMEOUT",
+  "syscall": "querySrv",
+  "hostname": "_mongodb._tcp.cluster0.ppt7z.mongodb.net"
+}
+```
+## Error
+.
+Operation `auths.findOne()` buffering timed out after 10000ms

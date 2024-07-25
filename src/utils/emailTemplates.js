@@ -171,7 +171,7 @@ function passwordReset(name, resetToken, role) {
     <h5>Hello ${name},</h5>
     <h1>Password Reset</h1>
     <p>Click the link below to reset your password:</p>
-    <a href="${resetLink} class="button-1">Reset Password</a>
+    <a href="${resetLink}" class="button-1">Reset Password</a>
     <div class="p-space"></div>
     <small><i>For support, contact us via</i> <br>Company Mail: joegreencafeteriaservice@gmail.com <br> Call: 0916478 0187, 07043536861 </small>
   </div>
