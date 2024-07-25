@@ -379,11 +379,12 @@ const forgotPassword = async (req, res) => {
       logger.errorLogger("Email not registered");
       return res.status(404).json({ message: "Email not registered" });
     }
-
-    const resetToken = jwt.sign({ userId: user._id }, config.JWT_SECRET, {
+    let resetTokenString = generateRandomString();
+    const resetToken = jwt.sign({ userId: user._id, resetTokenString}, config.JWT_SECRET, {
       expiresIn: "24h",
     });
-    user.resetTokenString = generateRandomString();
+
+    user.resetTokenString = resetTokenString
     await user.save();
 
     const mailOptionsWithReset = {
