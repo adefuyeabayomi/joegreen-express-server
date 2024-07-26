@@ -54,7 +54,7 @@ const signupWithEmailAndPassword = async (req, res) => {
 
     // Generate JWT token for session
     const token = jwt.sign(
-      { id: newUser._id, email: newUser.email },
+      { id: newUser._id, email: newUser.email, role: newUser.role },
       config.JWT_SECRET,
       { expiresIn: "24h" },
     );
@@ -264,7 +264,7 @@ const login = async (req, res) => {
 
     // Generate JWT token
     const token = jwt.sign(
-      { userId: authUser._id, email: authUser.email },
+      { userId: authUser._id, email: authUser.email,role : authUser.role },
       config.JWT_SECRET,
       { expiresIn: "24h" }, // Token expires in 1 hour
     );

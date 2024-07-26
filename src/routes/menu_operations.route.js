@@ -17,7 +17,7 @@ router.post('/dishes', verifyToken, menuOperationsController.createDish);
 router.put('/dishes/:id', verifyToken, menuOperationsController.updateDish);
 
 // Update dish image
-router.post('/dishes/:id/image', verifyToken, uploadImages, menuOperationsController.updateDishImage);
+router.put('/dishes/:id/image', verifyToken, uploadImages, menuOperationsController.updateDishImage);
 
 // Get all categories
 router.get('/categories', menuOperationsController.getAllCategory);

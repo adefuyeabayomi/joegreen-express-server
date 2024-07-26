@@ -44,7 +44,18 @@ connectDB(database)
 const app = express();
 // install middlewares
 app.use(apiLimiter);
-app.use(cors()); // cors middleware
+// CORS configuration
+app.use(cors({
+  origin: [
+    "http://localhost:5173",
+    "https://joegreencafe.com",
+    "https://joegreen-admin.netlify.app",
+    "https://joegreen-cafe.netlify.app",
+  ],
+  methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"], // Add any methods you're using
+  allowedHeaders: ["Content-Type", "Authorization"], // Add any headers you're using
+}));
+
 app.use(helmet());
 app.use(morgan("combined", { stream: logger.accessLogStream })); // request logger
 app.use(

@@ -3,11 +3,41 @@ const DishCategory = require('../models/dish_category.model');
 const logger = require('../utils/logger');
 const saveToCloudinary = require('../functions/saveToCloudinary');
 const isAdmin = (req) => req.user && req.user.role === 'admin';
+const config = require('../utils/config')
 
 // Get all dishes
 const getDishes = async (req, res) => {
   try {
-    const dishes = await Dish.find();
+    // Extract query parameters from the request
+    const { name, priceMin, priceMax, published, category } = req.query;
+
+    // Build the query object based on provided parameters
+    const query = {};
+
+    if (name) {
+      query.name = { $regex: name, $options: 'i' }; // Case-insensitive search for name
+    }
+
+    if (priceMin) {
+      query.price = { $gte: Number(priceMin) }; // Minimum price filter
+    }
+
+    if (priceMax) {
+      query.price = query.price || {}; // Ensure `price` object exists
+      query.price.$lte = Number(priceMax); // Maximum price filter
+    }
+
+    if (published) {
+      query.published = published === 'true'; // Convert 'true'/'false' string to boolean
+    }
+
+    if (category) {
+      query.category = category; // Exact match for category
+    }
+
+    // Fetch dishes from the database with the constructed query
+    const dishes = await Dish.find(query);
+
     res.status(200).json(dishes);
   } catch (error) {
     logger.errorLogger('Error fetching dishes', true);
@@ -16,7 +46,8 @@ const getDishes = async (req, res) => {
   }
 };
 
-// Get dish by ID
+
+// Get dish by ID 
 const getDishById = async (req, res) => {
   try {
     const dish = await Dish.findById(req.params.id);
@@ -33,6 +64,7 @@ const getDishById = async (req, res) => {
 
 // Create a new dish
 const createDish = async (req, res) => {
+  console.log('user', req.user)
   if (!isAdmin(req)) {
     return res.status(403).json({ message: 'Access denied' });
   }
@@ -117,6 +149,7 @@ const getCategoryById = async (req, res) => {
 
 // Create a new category
 const createCategory = async (req, res) => {
+  console.log('user', req.user)
   if (!isAdmin(req)) {
     return res.status(403).json({ message: 'Access denied' });
   }
