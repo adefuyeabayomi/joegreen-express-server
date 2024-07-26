@@ -9,6 +9,14 @@ tags:
     description: Endpoints for health check and logs management
   - name: Auth
     description: Endpoints for Authentications
+  - name: Profile
+    description: Endpoints for User Profile Management
+  - name: Menu
+    description: Endpoints for managing site Dishes & Menu
+  - name: Blog
+    description: Endpoint for managing site blogs
+  - name: customer-service
+    description: Operations related to customer messages
 
 components:
   schemas:
@@ -72,6 +80,72 @@ components:
           format: date-time
           example: "2023-07-18T12:34:56Z"
         
+    Dish:
+      type: object
+      properties:
+        name:
+          type: string
+        image:
+          type: string
+        addons:
+          type: array
+          items:
+            type: string
+        description:
+          type: string
+        published:
+          type: boolean
+        created:
+          type: string
+          format: date-time
+    DishCategory:
+      type: object
+      properties:
+        name:
+          type: string
+        description:
+          type: string
+        published:
+          type: boolean
+        created:
+          type: string
+          format: date-time
+    Blog:
+      type: object
+      properties:
+        title:
+          type: string
+        highlightParagraph:
+          type: string
+        created:
+          type: string
+          format: date-time
+        link:
+          type: string
+        image:
+          type: string
+        published:
+          type: boolean
+      required:
+        - title
+        - highlightParagraph
+        - link
+    CustomerMessage:
+      type: object
+      properties:
+        email:
+          type: string
+        message:
+          type: string
+        created:
+          type: string
+          format: date-time
+        replied:
+          type: boolean
+      required:
+        - email
+        - message
+
 paths:
   /profile:
     post:
@@ -592,3 +666,402 @@ paths:
           description: Application logs cleared
         500:
           description: Error clearing application logs
+  /dishes:
+    get:
+      summary: Get all dishes
+      tags: [Menu]
+      responses:
+        '200':
+          description: List of dishes
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Dish'
+    post:
+      summary: Create a new dish
+      tags: [Menu]
+      security:
+        - bearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Dish'
+      responses:
+        '201':
+          description: Dish created successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Dish'
+        '403':
+          description: Forbidden - Only admin users can create dishes
+
+  /dishes/{id}:
+    get:
+      summary: Get a dish by ID
+      tags: [Menu]
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Dish details
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Dish'
+        '404':
+          description: Dish not found
+    put:
+      summary: Update a dish
+      tags: [Menu]
+      security:
+        - bearerAuth: []
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Dish'
+      responses:
+        '200':
+          description: Dish updated successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Dish'
+        '403':
+          description: Forbidden - Only admin users can update dishes
+        '404':
+          description: Dish not found
+    post:
+      summary: Update dish image
+      tags: [Menu]
+      security:
+        - bearerAuth: []
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              properties:
+                files:
+                  type: array
+                  items:
+                    type: string
+                    format: binary
+      responses:
+        '200':
+          description: Dish image updated successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Dish'
+        '403':
+          description: Forbidden - Only admin users can update dish images
+        '400':
+          description: No files uploaded
+
+  /categories:
+    get:
+      summary: Get all categories
+      tags: [Menu]
+      responses:
+        '200':
+          description: List of categories
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/DishCategory'
+    post:
+      summary: Create a new category
+      tags: [Menu]
+      security:
+        - bearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/DishCategory'
+      responses:
+        '201':
+          description: Category created successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/DishCategory'
+        '403':
+          description: Forbidden - Only admin users can create categories
+
+  /categories/{id}:
+    get:
+      summary: Get a category by ID
+      tags: [Menu]
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Category details
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/DishCategory'
+        '404':
+          description: Category not found
+    put:
+      summary: Update a category
+      tags: [Menu]
+      security:
+        - bearerAuth: []
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/DishCategory'
+      responses:
+        '200':
+          description: Category updated successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/DishCategory'
+        '403':
+          description: Forbidden - Only admin users can update categories
+        '404':
+          description: Category not found
+
+  /items/{type}/{id}:
+    delete:
+      summary: Delete a dish or category
+      tags: [Menu]
+      security:
+        - bearerAuth: []
+      parameters:
+        - in: path
+          name: type
+          required: true
+          schema:
+            type: string
+            enum:
+              - dish
+              - category
+        - in: path
+          name: id
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Item deleted successfully
+        '403':
+          description: Forbidden - Only admin users can delete items
+        '404':
+          description: Item not found
+        '400':
+          description: Invalid type
+
+  /blogs:
+    get:
+      summary: Get all blog posts
+      tags: [Blog]
+      responses:
+        '200':
+          description: Successfully retrieved all blog posts
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Blog'
+    post:
+      summary: Create a new blog post
+      tags: [Blog]
+      security:
+        - bearerAuth: []
+      requestBody:
+        description: Blog post data
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Blog'
+        required: true
+      responses:
+        '201':
+          description: Successfully created a new blog post
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Blog'
+        '403':
+          description: Access denied
+        '500':
+          description: Server error
+
+  /blogs/{id}:
+    get:
+      summary: Get a blog post by ID
+      tags: [Blog]
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Successfully retrieved the blog post
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Blog'
+        '404':
+          description: Blog post not found
+        '500':
+          description: Server error
+    put:
+      summary: Update a blog post by ID
+      tags: [Blog]
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      requestBody:
+        description: Updated blog post data
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Blog'
+        required: true
+      responses:
+        '200':
+          description: Successfully updated the blog post
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Blog'
+        '403':
+          description: Access denied
+        '404':
+          description: Blog post not found
+        '500':
+          description: Server error
+    delete:
+      summary: Delete a blog post by ID
+      tags: [Blog]
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Successfully deleted the blog post
+        '403':
+          description: Access denied
+        '404':
+          description: Blog post not found
+        '500':
+          description: Server error
+
+  /customer-messages:
+    post:
+      tags:
+        - customer-service
+      summary: Send a new customer message
+      requestBody:
+        description: Customer message data
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CustomerMessage'
+        required: true
+      responses:
+        '201':
+          description: Successfully created a new customer message
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CustomerMessage'
+        '500':
+          description: Server error
+
+  /customer-messages/{id}/reply:
+    post:
+      tags:
+        - customer-service
+      summary: Reply to a customer message via email
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      requestBody:
+        description: Admin reply message
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                reply:
+                  type: string
+              required:
+                - reply
+        required: true
+      responses:
+        '200':
+          description: Successfully replied to the customer message
+        '400':
+          description: Invalid request
+        '404':
+          description: Customer message not found
+        '403':
+          description: Access denied
+        '500':
+          description: Server error
+
+security:
+  - bearerAuth: []

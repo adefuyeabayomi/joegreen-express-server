@@ -3,7 +3,7 @@ const config = require("./utils/config");
 const logger = require("./utils/logger");
 const express = require("express"); // import express
 const http = require("http");
-const socketIo = require("socket.io");
+const socketIo = require("socket.io")
 const cors = require("cors");
 const morgan = require("morgan");
 const errorHandler = require("./functions/error.middleware"); // Adjust path as necessary
@@ -11,6 +11,9 @@ const apiLimiter = require("./utils/apiLimiter"); // Import your rate limiting c
 const helmet = require("helmet");
 const pingRoute = require("./routes/ping.route");
 const authRoute = require("./routes/auth.route");
+const menuRoute = require("./routes/menu_operations.route")
+const blogRoute = require("./routes/blog_operation.route")
+const customerMessageRoute = require("./routes/customer_messages.route")
 const profileRoutes = require('./routes/profile.route');
 const YAML = require("yamljs");
 const path = require("path");
@@ -53,12 +56,20 @@ app.use(express.json()); // body parsing middleware
 app.use("/", pingRoute);
 app.use("/auth", authRoute);
 app.use('/profile', profileRoutes);
+app.use('/',menuRoute)
+app.use('/blog',blogRoute)
+app.use('/',customerMessageRoute)
 
 // Create HTTP server
 const server = http.createServer(app);
 
-// Integrate Socket.IO
-const io = socketIo(server);
+const io = socketIo(server, {
+  cors: {
+    origin: 'http://localhost:5173', // Replace with your frontend URL
+    methods: ['GET', 'POST'],
+  },
+});
+
 io.on("connection", (socket) => {
   logger.infoLogger("A user connected - socket.io");
 

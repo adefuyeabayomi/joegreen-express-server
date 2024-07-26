@@ -412,7 +412,6 @@ const forgotPassword = async (req, res) => {
 const resetPassword = async (req, res) => {
   const { resetToken } = req.query;
   const { newPassword } = req.body;
-  console.log({resetToken,newPassword})
   try {
     const decoded = jwt.verify(resetToken, config.JWT_SECRET);
     const user = await Auth.findById(decoded.userId);

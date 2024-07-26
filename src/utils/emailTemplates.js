@@ -182,8 +182,23 @@ function passwordReset(name, resetToken, role) {
   `;
 }
 
+const replyTemplate = (email, replyMessage) => `
+  <html>
+  <body>
+    <p>Dear User,</p>
+    <p>Thank you for reaching out to us. Here is our reply to your message:</p>
+    <blockquote>${replyMessage}</blockquote>
+    <p>Best regards,<br>Your Company</p>
+  </body>
+  </html>
+`;
+
+module.exports = { replyTemplate };
+
+
 module.exports = {
   welcome,
   verify,
   passwordReset,
+  replyTemplate
 };
