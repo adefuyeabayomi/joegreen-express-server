@@ -6,6 +6,7 @@ const saveToCloudinary = require('../functions/saveToCloudinary');
 
 // Create a new blog post
 const createBlogPost = async (req, res) => {
+  console.log('req.files', req.files)
   try {
     if (req.user.role !== 'admin') {
       return res.status(403).json({ message: 'Access denied' });
@@ -14,9 +15,10 @@ const createBlogPost = async (req, res) => {
     const { title, highlightParagraph, link, published } = req.body;
     let image = null;
 
-    if (req.files && req.files.image) {
-      const uploadedImageUrls = await saveToCloudinary(req.files.image, 'blog_images');
+    if (req.files) {
+      const uploadedImageUrls = await saveToCloudinary(req.files, 'blog_images');
       image = uploadedImageUrls[0];
+      console.log(image,uploadedImageUrls)
     }
 
     const newBlogPost = new Blog({
@@ -34,7 +36,7 @@ const createBlogPost = async (req, res) => {
     logger.errorLogger(error, true);
     res.status(500).json({ message: 'Error creating blog post', error });
   }
-};
+}
 
 // Get all blog posts
 const getAllBlogPosts = async (req, res) => {
@@ -65,6 +67,7 @@ const getBlogPostById = async (req, res) => {
 
 // Update a blog post by ID
 const updateBlogPost = async (req, res) => {
+  console.log('req.files', req.files)
   try {
     if (req.user.role !== 'admin') {
       return res.status(403).json({ message: 'Access denied' });
@@ -73,8 +76,8 @@ const updateBlogPost = async (req, res) => {
     const { title, highlightParagraph, link, published } = req.body;
     const updateData = { title, highlightParagraph, link, published };
 
-    if (req.files && req.files.image) {
-      const uploadedImageUrls = await saveToCloudinary(req.files.image, 'blog_images');
+    if (req.files) {
+      const uploadedImageUrls = await saveToCloudinary(req.files, 'blog_images');
       updateData.image = uploadedImageUrls[0];
     }
 
@@ -96,13 +99,13 @@ const deleteBlogPost = async (req, res) => {
     if (req.user.role !== 'admin') {
       return res.status(403).json({ message: 'Access denied' });
     }
-
     const deletedBlogPost = await Blog.findByIdAndDelete(req.params.id);
-    if (!deletedBlogPost) {
+        if (!deletedBlogPost) {
       return res.status(404).json({ message: 'Blog post not found' });
     }
     res.status(200).json({ message: 'Blog post deleted successfully' });
   } catch (error) {
+    console.log({error})
     logger.errorLogger('Error deleting blog post', true);
     logger.errorLogger(error, true);
     res.status(500).json({ message: 'Error deleting blog post', error });

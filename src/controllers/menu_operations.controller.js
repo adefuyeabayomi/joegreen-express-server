@@ -189,13 +189,13 @@ const deleteDishOrCategory = async (req, res) => {
   }
   try {
     const { type, id } = req.params; // 'type' can be 'dish' or 'category'
-    if (type === 'dish') {
+    if (type === 'dishes') {
       const deletedDish = await Dish.findByIdAndDelete(id);
       if (!deletedDish) {
         return res.status(404).json({ message: 'Dish not found' });
       }
       res.status(200).json({ message: 'Dish deleted successfully' });
-    } else if (type === 'category') {
+    } else if (type === 'categories') {
       const deletedCategory = await DishCategory.findByIdAndDelete(id);
       if (!deletedCategory) {
         return res.status(404).json({ message: 'Category not found' });

@@ -68,7 +68,7 @@ app.use("/", pingRoute);
 app.use("/auth", authRoute);
 app.use('/profile', profileRoutes);
 app.use('/',menuRoute)
-app.use('/blog',blogRoute)
+app.use('/blogs',blogRoute)
 app.use('/',customerMessageRoute)
 
 // Create HTTP server

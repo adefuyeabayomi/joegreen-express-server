@@ -32,6 +32,6 @@ router.post('/categories', verifyToken, menuOperationsController.createCategory)
 router.put('/categories/:id', verifyToken, menuOperationsController.updateCategory);
 
 // Delete a dish or category
-router.delete('/items/:type/:id', verifyToken, menuOperationsController.deleteDishOrCategory);
+router.delete('menu/:type/:id', verifyToken, menuOperationsController.deleteDishOrCategory);
 
 module.exports = router;

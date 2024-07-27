@@ -18,3 +18,4 @@ router.put('/:id', verifyToken, uploadImages, updateBlogPost); // Update a blog 
 router.delete('/:id', verifyToken, deleteBlogPost); // Delete a blog post
 
 module.exports = router;
+

@@ -2970,3 +2970,1520 @@ Error in connecting to database
   }
 }
 ```
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+Success : connected to database
+## Error
+.
+Error updating dish image
+## Error
+.
+##2024-07-26 20:29:55
+.
+```javascript
+{}
+```
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Error
+.
+##2024-07-26 20:31:51
+.
+```javascript
+{
+  "code": "ESERVFAIL",
+  "syscall": "queryTxt",
+  "hostname": "cluster0.ppt7z.mongodb.net"
+}
+```
+## Error
+.
+Error in connecting to database
+## Error
+.
+##2024-07-26 20:31:51
+.
+```javascript
+{
+  "code": "ESERVFAIL",
+  "syscall": "queryTxt",
+  "hostname": "cluster0.ppt7z.mongodb.net"
+}
+```
+## Error
+.
+Error fetching category
+## Error
+.
+##2024-07-26 20:31:59
+.
+```javascript
+{}
+```
+## Error
+.
+Error fetching dishes
+## Error
+.
+##2024-07-26 20:32:50
+.
+```javascript
+{}
+```
+## Error
+.
+Error fetching category
+## Error
+.
+##2024-07-26 20:32:50
+.
+```javascript
+{}
+```
+## Error
+.
+Error fetching dishes
+## Error
+.
+##2024-07-26 20:33:00
+.
+```javascript
+{}
+```
+## Error
+.
+Error fetching category
+## Error
+.
+##2024-07-26 20:33:00
+.
+```javascript
+{}
+```
+## Error
+.
+Error fetching dishes
+## Error
+.
+##2024-07-26 20:33:10
+.
+```javascript
+{}
+```
+## Error
+.
+Error fetching category
+## Error
+.
+##2024-07-26 20:33:10
+.
+```javascript
+{}
+```
+## Error
+.
+Error fetching dishes
+## Error
+.
+##2024-07-26 20:33:16
+.
+```javascript
+{}
+```
+## Error
+.
+Error fetching category
+## Error
+.
+##2024-07-26 20:33:16
+.
+```javascript
+{}
+```
+## Error
+.
+Error fetching dishes
+## Error
+.
+##2024-07-26 20:33:49
+.
+```javascript
+{}
+```
+## Error
+.
+Error fetching category
+## Error
+.
+##2024-07-26 20:33:49
+.
+```javascript
+{}
+```
+## Error
+.
+Error fetching dishes
+## Error
+.
+##2024-07-26 20:33:59
+.
+```javascript
+{}
+```
+## Error
+.
+Error fetching category
+## Error
+.
+##2024-07-26 20:33:59
+.
+```javascript
+{}
+```
+## Error
+.
+Error fetching dishes
+## Error
+.
+##2024-07-26 20:34:09
+.
+```javascript
+{}
+```
+## Error
+.
+Error fetching category
+## Error
+.
+##2024-07-26 20:34:10
+.
+```javascript
+{}
+```
+## Error
+.
+Error fetching dishes
+## Error
+.
+##2024-07-26 20:34:20
+.
+```javascript
+{}
+```
+## Error
+.
+Error fetching category
+## Error
+.
+##2024-07-26 20:34:20
+.
+```javascript
+{}
+```
+## Error
+.
+Error fetching dishes
+## Error
+.
+##2024-07-26 20:34:30
+.
+```javascript
+{}
+```
+## Error
+.
+Error fetching category
+## Error
+.
+##2024-07-26 20:34:30
+.
+```javascript
+{}
+```
+## Error
+.
+Error fetching dishes
+## Error
+.
+##2024-07-26 20:34:40
+.
+```javascript
+{}
+```
+## Error
+.
+Error fetching category
+## Error
+.
+##2024-07-26 20:34:40
+.
+```javascript
+{}
+```
+## Error
+.
+Error fetching dishes
+## Error
+.
+##2024-07-26 20:34:45
+.
+```javascript
+{}
+```
+## Error
+.
+Error fetching category
+## Error
+.
+##2024-07-26 20:34:45
+.
+```javascript
+{}
+```
+## Error
+.
+Error fetching dishes
+## Error
+.
+##2024-07-26 20:34:48
+.
+```javascript
+{}
+```
+## Error
+.
+Error fetching category
+## Error
+.
+##2024-07-26 20:34:48
+.
+```javascript
+{}
+```
+## Error
+.
+Error fetching dishes
+## Error
+.
+##2024-07-26 20:34:52
+.
+```javascript
+{}
+```
+## Error
+.
+Error fetching category
+## Error
+.
+##2024-07-26 20:34:52
+.
+```javascript
+{}
+```
+## Error
+.
+Error fetching dishes
+## Error
+.
+##2024-07-26 20:34:55
+.
+```javascript
+{}
+```
+## Error
+.
+Error fetching category
+## Error
+.
+##2024-07-26 20:34:55
+.
+```javascript
+{}
+```
+## Error
+.
+Error fetching dishes
+## Error
+.
+##2024-07-26 20:35:06
+.
+```javascript
+{}
+```
+## Error
+.
+Error fetching category
+## Error
+.
+##2024-07-26 20:35:06
+.
+```javascript
+{}
+```
+## Error
+.
+Error fetching dishes
+## Error
+.
+##2024-07-26 20:35:13
+.
+```javascript
+{}
+```
+## Error
+.
+Error fetching category
+## Error
+.
+##2024-07-26 20:35:13
+.
+```javascript
+{}
+```
+## Error
+.
+Error fetching dishes
+## Error
+.
+##2024-07-26 20:35:40
+.
+```javascript
+{}
+```
+## Error
+.
+Error fetching category
+## Error
+.
+##2024-07-26 20:35:40
+.
+```javascript
+{}
+```
+## Error
+.
+Error fetching dishes
+## Error
+.
+##2024-07-26 20:35:50
+.
+```javascript
+{}
+```
+## Error
+.
+Error fetching category
+## Error
+.
+##2024-07-26 20:35:50
+.
+```javascript
+{}
+```
+## Error
+.
+Error fetching dishes
+## Error
+.
+##2024-07-26 20:36:00
+.
+```javascript
+{}
+```
+## Error
+.
+Error fetching category
+## Error
+.
+##2024-07-26 20:36:00
+.
+```javascript
+{}
+```
+## Error
+.
+Error fetching dishes
+## Error
+.
+##2024-07-26 20:36:10
+.
+```javascript
+{}
+```
+## Error
+.
+Error fetching category
+## Error
+.
+##2024-07-26 20:36:10
+.
+```javascript
+{}
+```
+## Error
+.
+Error fetching dishes
+## Error
+.
+##2024-07-26 20:36:20
+.
+```javascript
+{}
+```
+## Error
+.
+Error fetching category
+## Error
+.
+##2024-07-26 20:36:20
+.
+```javascript
+{}
+```
+## Error
+.
+Error fetching dishes
+## Error
+.
+##2024-07-26 20:36:30
+.
+```javascript
+{}
+```
+## Error
+.
+Error fetching category
+## Error
+.
+##2024-07-26 20:36:30
+.
+```javascript
+{}
+```
+## Error
+.
+Error fetching dishes
+## Error
+.
+##2024-07-26 20:36:34
+.
+```javascript
+{}
+```
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+Success : connected to database
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Error
+.
+##2024-07-26 20:55:00
+.
+```javascript
+{
+  "code": "ESERVFAIL",
+  "syscall": "querySrv",
+  "hostname": "_mongodb._tcp.cluster0.ppt7z.mongodb.net"
+}
+```
+## Error
+.
+Error in connecting to database
+## Error
+.
+##2024-07-26 20:55:00
+.
+```javascript
+{
+  "code": "ESERVFAIL",
+  "syscall": "querySrv",
+  "hostname": "_mongodb._tcp.cluster0.ppt7z.mongodb.net"
+}
+```
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Error
+.
+##2024-07-26 20:55:14
+.
+```javascript
+{
+  "code": "ESERVFAIL",
+  "syscall": "queryTxt",
+  "hostname": "cluster0.ppt7z.mongodb.net"
+}
+```
+## Error
+.
+Error in connecting to database
+## Error
+.
+##2024-07-26 20:55:14
+.
+```javascript
+{
+  "code": "ESERVFAIL",
+  "syscall": "queryTxt",
+  "hostname": "cluster0.ppt7z.mongodb.net"
+}
+```
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+Success : connected to database
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+Success : connected to database
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Error
+.
+##2024-07-27 12:06:22
+.
+```javascript
+{
+  "code": "ESERVFAIL",
+  "syscall": "queryTxt",
+  "hostname": "cluster0.ppt7z.mongodb.net"
+}
+```
+## Error
+.
+Error in connecting to database
+## Error
+.
+##2024-07-27 12:06:22
+.
+```javascript
+{
+  "code": "ESERVFAIL",
+  "syscall": "queryTxt",
+  "hostname": "cluster0.ppt7z.mongodb.net"
+}
+```
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+Success : connected to database
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+Success : connected to database
+## Error
+.
+Error updating dish image
+## Error
+.
+##2024-07-27 12:11:03
+.
+```javascript
+{}
+```
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+Success : connected to database
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+Success : connected to database
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+Success : connected to database
+## Error
+.
+Error creating blog post
+## Error
+.
+##2024-07-27 14:53:43
+.
+```javascript
+{
+  "errors": {
+    "link": {
+      "name": "ValidatorError",
+      "message": "Path `link` is required.",
+      "properties": {
+        "message": "Path `link` is required.",
+        "type": "required",
+        "path": "link"
+      },
+      "kind": "required",
+      "path": "link"
+    }
+  },
+  "_message": "Blog validation failed",
+  "name": "ValidationError",
+  "message": "Blog validation failed: link: Path `link` is required."
+}
+```
+## Error
+.
+Error creating blog post
+## Error
+.
+##2024-07-27 15:03:18
+.
+```javascript
+{
+  "errors": {
+    "link": {
+      "name": "ValidatorError",
+      "message": "Path `link` is required.",
+      "properties": {
+        "message": "Path `link` is required.",
+        "type": "required",
+        "path": "link"
+      },
+      "kind": "required",
+      "path": "link"
+    }
+  },
+  "_message": "Blog validation failed",
+  "name": "ValidationError",
+  "message": "Blog validation failed: link: Path `link` is required."
+}
+```
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Error
+.
+##2024-07-27 16:52:26
+.
+```javascript
+{
+  "code": "ESERVFAIL",
+  "syscall": "querySrv",
+  "hostname": "_mongodb._tcp.cluster0.ppt7z.mongodb.net"
+}
+```
+## Error
+.
+Error in connecting to database
+## Error
+.
+##2024-07-27 16:52:26
+.
+```javascript
+{
+  "code": "ESERVFAIL",
+  "syscall": "querySrv",
+  "hostname": "_mongodb._tcp.cluster0.ppt7z.mongodb.net"
+}
+```
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+Success : connected to database
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Error
+.
+##2024-07-27 16:53:57
+.
+```javascript
+{
+  "code": "ESERVFAIL",
+  "syscall": "querySrv",
+  "hostname": "_mongodb._tcp.cluster0.ppt7z.mongodb.net"
+}
+```
+## Error
+.
+Error in connecting to database
+## Error
+.
+##2024-07-27 16:53:57
+.
+```javascript
+{
+  "code": "ESERVFAIL",
+  "syscall": "querySrv",
+  "hostname": "_mongodb._tcp.cluster0.ppt7z.mongodb.net"
+}
+```
+## Error
+.
+Error creating blog post
+## Error
+.
+##2024-07-27 17:01:22
+.
+```javascript
+{}
+```
+## Error
+.
+Error fetching blog posts
+## Error
+.
+##2024-07-27 17:02:18
+.
+```javascript
+{}
+```
+## Error
+.
+Error fetching blog posts
+## Error
+.
+##2024-07-27 17:02:28
+.
+```javascript
+{}
+```
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Error
+.
+##2024-07-27 17:02:46
+.
+```javascript
+{
+  "code": "ESERVFAIL",
+  "syscall": "querySrv",
+  "hostname": "_mongodb._tcp.cluster0.ppt7z.mongodb.net"
+}
+```
+## Error
+.
+Error in connecting to database
+## Error
+.
+##2024-07-27 17:02:46
+.
+```javascript
+{
+  "code": "ESERVFAIL",
+  "syscall": "querySrv",
+  "hostname": "_mongodb._tcp.cluster0.ppt7z.mongodb.net"
+}
+```
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Error
+.
+##2024-07-27 17:03:34
+.
+```javascript
+{
+  "code": "ETIMEOUT",
+  "syscall": "queryTxt",
+  "hostname": "cluster0.ppt7z.mongodb.net"
+}
+```
+## Error
+.
+Error in connecting to database
+## Error
+.
+##2024-07-27 17:03:34
+.
+```javascript
+{
+  "code": "ETIMEOUT",
+  "syscall": "queryTxt",
+  "hostname": "cluster0.ppt7z.mongodb.net"
+}
+```
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+Success : connected to database
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+Success : connected to database
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+Success : connected to database
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+Success : connected to database
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+Success : connected to database
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+Success : connected to database
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+Success : connected to database
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+Success : connected to database
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+Success : connected to database
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+Success : connected to database
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+Success : connected to database
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+Success : connected to database
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+Success : connected to database
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+Success : connected to database
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+Success : connected to database
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+Success : connected to database
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+Success : connected to database
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+Success : connected to database
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+Success : connected to database
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Error
+.
+Error creating blog post
+## Error
+.
+##2024-07-27 19:54:40
+.
+```javascript
+{}
+```
+## Info 
+.
+Success : connected to database
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+Success : connected to database
+## Error
+.
+Error creating blog post
+## Error
+.
+##2024-07-27 19:55:42
+.
+```javascript
+{}
+```
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+Success : connected to database
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+Success : connected to database
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+Success : connected to database
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+Success : connected to database
+## Error
+.
+Error fetching blog posts
+## Error
+.
+##2024-07-27 20:14:09
+.
+```javascript
+{
+  "reason": {
+    "type": "ReplicaSetNoPrimary",
+    "servers": {},
+    "stale": false,
+    "compatible": true,
+    "heartbeatFrequencyMS": 10000,
+    "localThresholdMS": 15,
+    "setName": "atlas-11dge0-shard-0",
+    "maxElectionId": "7fffffff0000000000000120",
+    "maxSetVersion": 15,
+    "commonWireVersion": 0,
+    "logicalSessionTimeoutMinutes": null
+  }
+}
+```
+## Error
+.
+Error fetching blog posts
+## Error
+.
+##2024-07-27 20:14:29
+.
+```javascript
+{
+  "reason": {
+    "type": "ReplicaSetNoPrimary",
+    "servers": {},
+    "stale": false,
+    "compatible": true,
+    "heartbeatFrequencyMS": 10000,
+    "localThresholdMS": 15,
+    "setName": "atlas-11dge0-shard-0",
+    "maxElectionId": "7fffffff0000000000000120",
+    "maxSetVersion": 15,
+    "commonWireVersion": 0,
+    "logicalSessionTimeoutMinutes": null
+  }
+}
+```
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Error
+.
+##2024-07-27 20:14:45
+.
+```javascript
+{
+  "code": "ETIMEOUT",
+  "syscall": "querySrv",
+  "hostname": "_mongodb._tcp.cluster0.ppt7z.mongodb.net"
+}
+```
+## Error
+.
+Error in connecting to database
+## Error
+.
+##2024-07-27 20:14:45
+.
+```javascript
+{
+  "code": "ETIMEOUT",
+  "syscall": "querySrv",
+  "hostname": "_mongodb._tcp.cluster0.ppt7z.mongodb.net"
+}
+```
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+Success : connected to database
