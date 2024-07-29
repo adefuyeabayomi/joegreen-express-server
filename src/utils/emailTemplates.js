@@ -182,7 +182,7 @@ function passwordReset(name, resetToken, role) {
   `;
 }
 
-const replyTemplate = (email, replyMessage) => `
+const reply = (email, replyMessage) => `
   <html>
   <body>
     <p>Dear User,</p>
@@ -193,12 +193,9 @@ const replyTemplate = (email, replyMessage) => `
   </html>
 `;
 
-module.exports = { replyTemplate };
-
-
 module.exports = {
   welcome,
   verify,
   passwordReset,
-  replyTemplate
+  reply
 };

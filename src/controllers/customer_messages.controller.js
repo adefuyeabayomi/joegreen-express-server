@@ -1,6 +1,7 @@
 const CustomerMessage = require("../models/customer_messages.model");
 const { transporter, mailOptions } = require("../functions/nodemailer.config");
 const emailTemplates = require("../utils/emailTemplates");
+const validator = require('validator')
 
 // Endpoint to handle incoming customer messages
 const postCustomerMessage = async (req, res) => {
@@ -29,6 +30,50 @@ const postCustomerMessage = async (req, res) => {
   }
 };
 
+
+// Get all blog posts
+const getCustomerMessages = async (req, res) => {
+  const { replied, startDate, endDate } = req.query;
+
+  // Validate dates
+  if (startDate && !validator.isISO8601(startDate)) {
+    return res.status(400).json({ message: "Invalid startDate format" });
+  }
+  if (endDate && !validator.isISO8601(endDate)) {
+    return res.status(400).json({ message: "Invalid endDate format" });
+  }
+
+  try {
+    const query = {};
+
+    if (replied !== undefined) {
+      // Convert replied to boolean
+      const isReplied = replied === 'true';
+      query.replied = isReplied;
+    }
+
+    if (startDate || endDate) {
+      query.created = {};
+
+      if (startDate) {
+        query.created.$gte = new Date(startDate);
+      }
+
+      if (endDate) {
+        query.created.$lte = new Date(endDate);
+      }
+    }
+
+    const messages = await CustomerMessage.find(query);
+
+    // Return success response
+    return res.status(200).json(messages);
+  } catch (error) {
+    console.error(error);
+    return res.status(500).json({ message: "Server error" });
+  }
+};
+
 // Endpoint to handle admin reply to customer message
 const replyToCustomerMessage = async (req, res) => {
   const { messageId } = req.params;
@@ -41,10 +86,6 @@ const replyToCustomerMessage = async (req, res) => {
       return res.status(404).json({ message: "Message not found" });
     }
 
-    // Update the message as replied
-    customerMessage.replied = true;
-    await customerMessage.save();
-
     // Send the reply via email
     const replyEmailOptions = {
       ...mailOptions,
@@ -54,6 +95,10 @@ const replyToCustomerMessage = async (req, res) => {
     };
     await transporter.sendMail(replyEmailOptions);
 
+    // Update the message as replied
+    customerMessage.replied = true;
+    await customerMessage.save();
+
     // Return success response
     return res.status(200).json({ message: "Reply sent successfully" });
   } catch (error) {
@@ -62,4 +107,4 @@ const replyToCustomerMessage = async (req, res) => {
   }
 };
 
-module.exports = { postCustomerMessage, replyToCustomerMessage };
+module.exports = { postCustomerMessage, replyToCustomerMessage, getCustomerMessages };

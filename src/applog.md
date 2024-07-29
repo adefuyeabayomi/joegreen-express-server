@@ -4487,3 +4487,1981 @@ Server running on http://localhost:8080
 ## Info 
 .
 Success : connected to database
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+Success : connected to database
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+Success : connected to database
+## Info 
+.
+User Disconnected
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+Success : connected to database
+## Info 
+.
+User Disconnected
+## Info 
+.
+User Disconnected
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Error
+.
+##2024-07-28 11:50:16
+.
+```javascript
+{
+  "code": "ETIMEOUT",
+  "syscall": "querySrv",
+  "hostname": "_mongodb._tcp.cluster0.ppt7z.mongodb.net"
+}
+```
+## Error
+.
+Error in connecting to database
+## Error
+.
+##2024-07-28 11:50:16
+.
+```javascript
+{
+  "code": "ETIMEOUT",
+  "syscall": "querySrv",
+  "hostname": "_mongodb._tcp.cluster0.ppt7z.mongodb.net"
+}
+```
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Error
+.
+##2024-07-28 11:50:25
+.
+```javascript
+{
+  "code": "ETIMEOUT",
+  "syscall": "querySrv",
+  "hostname": "_mongodb._tcp.cluster0.ppt7z.mongodb.net"
+}
+```
+## Error
+.
+Error in connecting to database
+## Error
+.
+##2024-07-28 11:50:25
+.
+```javascript
+{
+  "code": "ETIMEOUT",
+  "syscall": "querySrv",
+  "hostname": "_mongodb._tcp.cluster0.ppt7z.mongodb.net"
+}
+```
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Error
+.
+##2024-07-28 11:53:36
+.
+```javascript
+{
+  "code": "ETIMEOUT",
+  "syscall": "querySrv",
+  "hostname": "_mongodb._tcp.cluster0.ppt7z.mongodb.net"
+}
+```
+## Error
+.
+Error in connecting to database
+## Error
+.
+##2024-07-28 11:53:36
+.
+```javascript
+{
+  "code": "ETIMEOUT",
+  "syscall": "querySrv",
+  "hostname": "_mongodb._tcp.cluster0.ppt7z.mongodb.net"
+}
+```
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Error
+.
+##2024-07-28 11:53:59
+.
+```javascript
+{
+  "code": "ETIMEOUT",
+  "syscall": "querySrv",
+  "hostname": "_mongodb._tcp.cluster0.ppt7z.mongodb.net"
+}
+```
+## Error
+.
+Error in connecting to database
+## Error
+.
+##2024-07-28 11:53:59
+.
+```javascript
+{
+  "code": "ETIMEOUT",
+  "syscall": "querySrv",
+  "hostname": "_mongodb._tcp.cluster0.ppt7z.mongodb.net"
+}
+```
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Error
+.
+##2024-07-28 11:54:31
+.
+```javascript
+{
+  "code": "ETIMEOUT",
+  "syscall": "querySrv",
+  "hostname": "_mongodb._tcp.cluster0.ppt7z.mongodb.net"
+}
+```
+## Error
+.
+Error in connecting to database
+## Error
+.
+##2024-07-28 11:54:31
+.
+```javascript
+{
+  "code": "ETIMEOUT",
+  "syscall": "querySrv",
+  "hostname": "_mongodb._tcp.cluster0.ppt7z.mongodb.net"
+}
+```
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Error
+.
+##2024-07-28 11:54:43
+.
+```javascript
+{
+  "code": "ETIMEOUT",
+  "syscall": "querySrv",
+  "hostname": "_mongodb._tcp.cluster0.ppt7z.mongodb.net"
+}
+```
+## Error
+.
+Error in connecting to database
+## Error
+.
+##2024-07-28 11:54:43
+.
+```javascript
+{
+  "code": "ETIMEOUT",
+  "syscall": "querySrv",
+  "hostname": "_mongodb._tcp.cluster0.ppt7z.mongodb.net"
+}
+```
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Error
+.
+##2024-07-28 11:55:17
+.
+```javascript
+{
+  "code": "ETIMEOUT",
+  "syscall": "querySrv",
+  "hostname": "_mongodb._tcp.cluster0.ppt7z.mongodb.net"
+}
+```
+## Error
+.
+Error in connecting to database
+## Error
+.
+##2024-07-28 11:55:17
+.
+```javascript
+{
+  "code": "ETIMEOUT",
+  "syscall": "querySrv",
+  "hostname": "_mongodb._tcp.cluster0.ppt7z.mongodb.net"
+}
+```
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Error
+.
+##2024-07-28 11:55:42
+.
+```javascript
+{
+  "code": "ETIMEOUT",
+  "syscall": "querySrv",
+  "hostname": "_mongodb._tcp.cluster0.ppt7z.mongodb.net"
+}
+```
+## Error
+.
+Error in connecting to database
+## Error
+.
+##2024-07-28 11:55:42
+.
+```javascript
+{
+  "code": "ETIMEOUT",
+  "syscall": "querySrv",
+  "hostname": "_mongodb._tcp.cluster0.ppt7z.mongodb.net"
+}
+```
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Error
+.
+##2024-07-28 11:56:12
+.
+```javascript
+{
+  "code": "ETIMEOUT",
+  "syscall": "querySrv",
+  "hostname": "_mongodb._tcp.cluster0.ppt7z.mongodb.net"
+}
+```
+## Error
+.
+Error in connecting to database
+## Error
+.
+##2024-07-28 11:56:12
+.
+```javascript
+{
+  "code": "ETIMEOUT",
+  "syscall": "querySrv",
+  "hostname": "_mongodb._tcp.cluster0.ppt7z.mongodb.net"
+}
+```
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+Success : connected to database
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+Success : connected to database
+## Error
+.
+Cannot read properties of undefined (reading 'split')
+## Error
+.
+##2024-07-28 13:38:34
+.
+```javascript
+{}
+```
+## Error
+.
+Cannot read properties of undefined (reading 'split')
+## Error
+.
+##2024-07-28 13:44:10
+.
+```javascript
+{}
+```
+## Error
+.
+Cannot read properties of undefined (reading 'split')
+## Error
+.
+##2024-07-28 13:44:34
+.
+```javascript
+{}
+```
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+Success : connected to database
+## Error
+.
+Cannot read properties of undefined (reading 'split')
+## Error
+.
+##2024-07-28 13:45:50
+.
+```javascript
+{}
+```
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+Success : connected to database
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+Success : connected to database
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+Success : connected to database
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+Success : connected to database
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+Success : connected to database
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Error
+.
+Error fetching dishes
+## Error
+.
+##2024-07-28 17:13:09
+.
+```javascript
+{
+  "reason": {
+    "type": "ReplicaSetNoPrimary",
+    "servers": {},
+    "stale": false,
+    "compatible": true,
+    "heartbeatFrequencyMS": 10000,
+    "localThresholdMS": 15,
+    "setName": "atlas-11dge0-shard-0",
+    "maxElectionId": "7fffffff0000000000000120",
+    "maxSetVersion": 15,
+    "commonWireVersion": 0,
+    "logicalSessionTimeoutMinutes": null
+  }
+}
+```
+## Error
+.
+Error fetching category
+## Error
+.
+##2024-07-28 17:13:09
+.
+```javascript
+{
+  "reason": {
+    "type": "ReplicaSetNoPrimary",
+    "servers": {},
+    "stale": false,
+    "compatible": true,
+    "heartbeatFrequencyMS": 10000,
+    "localThresholdMS": 15,
+    "setName": "atlas-11dge0-shard-0",
+    "maxElectionId": "7fffffff0000000000000120",
+    "maxSetVersion": 15,
+    "commonWireVersion": 0,
+    "logicalSessionTimeoutMinutes": null
+  }
+}
+```
+## Error
+.
+Error fetching dishes
+## Error
+.
+##2024-07-28 17:13:29
+.
+```javascript
+{
+  "reason": {
+    "type": "ReplicaSetNoPrimary",
+    "servers": {},
+    "stale": false,
+    "compatible": true,
+    "heartbeatFrequencyMS": 10000,
+    "localThresholdMS": 15,
+    "setName": "atlas-11dge0-shard-0",
+    "maxElectionId": "7fffffff0000000000000120",
+    "maxSetVersion": 15,
+    "commonWireVersion": 0,
+    "logicalSessionTimeoutMinutes": null
+  }
+}
+```
+## Error
+.
+Error fetching category
+## Error
+.
+##2024-07-28 17:13:29
+.
+```javascript
+{
+  "reason": {
+    "type": "ReplicaSetNoPrimary",
+    "servers": {},
+    "stale": false,
+    "compatible": true,
+    "heartbeatFrequencyMS": 10000,
+    "localThresholdMS": 15,
+    "setName": "atlas-11dge0-shard-0",
+    "maxElectionId": "7fffffff0000000000000120",
+    "maxSetVersion": 15,
+    "commonWireVersion": 0,
+    "logicalSessionTimeoutMinutes": null
+  }
+}
+```
+## Error
+.
+Error fetching categories
+## Error
+.
+##2024-07-28 17:13:49
+.
+```javascript
+{
+  "reason": {
+    "type": "ReplicaSetNoPrimary",
+    "servers": {},
+    "stale": false,
+    "compatible": true,
+    "heartbeatFrequencyMS": 10000,
+    "localThresholdMS": 15,
+    "setName": "atlas-11dge0-shard-0",
+    "maxElectionId": "7fffffff0000000000000120",
+    "maxSetVersion": 15,
+    "commonWireVersion": 0,
+    "logicalSessionTimeoutMinutes": null
+  }
+}
+```
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Error
+.
+Error fetching categories
+## Error
+.
+##2024-07-28 17:14:34
+.
+```javascript
+{}
+```
+## Error
+.
+##2024-07-28 17:14:43
+.
+```javascript
+{
+  "message": "Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/",
+  "reason": {
+    "type": "ReplicaSetNoPrimary",
+    "servers": {},
+    "stale": false,
+    "compatible": true,
+    "heartbeatFrequencyMS": 10000,
+    "localThresholdMS": 15,
+    "setName": "atlas-11dge0-shard-0",
+    "maxElectionId": null,
+    "maxSetVersion": null,
+    "commonWireVersion": 0,
+    "logicalSessionTimeoutMinutes": null
+  }
+}
+```
+## Error
+.
+Error in connecting to database
+## Error
+.
+##2024-07-28 17:14:43
+.
+```javascript
+{
+  "message": "Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/",
+  "reason": {
+    "type": "ReplicaSetNoPrimary",
+    "servers": {},
+    "stale": false,
+    "compatible": true,
+    "heartbeatFrequencyMS": 10000,
+    "localThresholdMS": 15,
+    "setName": "atlas-11dge0-shard-0",
+    "maxElectionId": null,
+    "maxSetVersion": null,
+    "commonWireVersion": 0,
+    "logicalSessionTimeoutMinutes": null
+  }
+}
+```
+## Error
+.
+Error fetching categories
+## Error
+.
+##2024-07-28 17:14:44
+.
+```javascript
+{}
+```
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+A user connected - socket.io
+## Error
+.
+##2024-07-28 17:17:14
+.
+```javascript
+{
+  "message": "Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/",
+  "reason": {
+    "type": "ReplicaSetNoPrimary",
+    "servers": {},
+    "stale": false,
+    "compatible": true,
+    "heartbeatFrequencyMS": 10000,
+    "localThresholdMS": 15,
+    "setName": "atlas-11dge0-shard-0",
+    "maxElectionId": null,
+    "maxSetVersion": null,
+    "commonWireVersion": 0,
+    "logicalSessionTimeoutMinutes": null
+  }
+}
+```
+## Error
+.
+Error in connecting to database
+## Error
+.
+##2024-07-28 17:17:15
+.
+```javascript
+{
+  "message": "Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/",
+  "reason": {
+    "type": "ReplicaSetNoPrimary",
+    "servers": {},
+    "stale": false,
+    "compatible": true,
+    "heartbeatFrequencyMS": 10000,
+    "localThresholdMS": 15,
+    "setName": "atlas-11dge0-shard-0",
+    "maxElectionId": null,
+    "maxSetVersion": null,
+    "commonWireVersion": 0,
+    "logicalSessionTimeoutMinutes": null
+  }
+}
+```
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+A user connected - socket.io
+## Error
+.
+##2024-07-28 17:21:02
+.
+```javascript
+{
+  "message": "Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/",
+  "reason": {
+    "type": "ReplicaSetNoPrimary",
+    "servers": {},
+    "stale": false,
+    "compatible": true,
+    "heartbeatFrequencyMS": 10000,
+    "localThresholdMS": 15,
+    "setName": "atlas-11dge0-shard-0",
+    "maxElectionId": null,
+    "maxSetVersion": null,
+    "commonWireVersion": 0,
+    "logicalSessionTimeoutMinutes": null
+  }
+}
+```
+## Error
+.
+Error in connecting to database
+## Error
+.
+##2024-07-28 17:21:02
+.
+```javascript
+{
+  "message": "Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/",
+  "reason": {
+    "type": "ReplicaSetNoPrimary",
+    "servers": {},
+    "stale": false,
+    "compatible": true,
+    "heartbeatFrequencyMS": 10000,
+    "localThresholdMS": 15,
+    "setName": "atlas-11dge0-shard-0",
+    "maxElectionId": null,
+    "maxSetVersion": null,
+    "commonWireVersion": 0,
+    "logicalSessionTimeoutMinutes": null
+  }
+}
+```
+## Error
+.
+Error fetching categories
+## Error
+.
+##2024-07-28 17:21:27
+.
+```javascript
+{}
+```
+## Error
+.
+Error fetching categories
+## Error
+.
+##2024-07-28 17:21:37
+.
+```javascript
+{}
+```
+## Error
+.
+Error fetching categories
+## Error
+.
+##2024-07-28 17:21:48
+.
+```javascript
+{}
+```
+## Error
+.
+Error fetching categories
+## Error
+.
+##2024-07-28 17:21:58
+.
+```javascript
+{}
+```
+## Error
+.
+Error fetching categories
+## Error
+.
+##2024-07-28 17:22:08
+.
+```javascript
+{}
+```
+## Error
+.
+Error fetching categories
+## Error
+.
+##2024-07-28 17:22:19
+.
+```javascript
+{}
+```
+## Error
+.
+Error fetching categories
+## Error
+.
+##2024-07-28 17:22:29
+.
+```javascript
+{}
+```
+## Error
+.
+Error fetching categories
+## Error
+.
+##2024-07-28 17:22:39
+.
+```javascript
+{}
+```
+## Error
+.
+Error fetching categories
+## Error
+.
+##2024-07-28 17:22:46
+.
+```javascript
+{}
+```
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Error
+.
+##2024-07-28 17:27:53
+.
+```javascript
+{
+  "code": "ECONNREFUSED",
+  "syscall": "querySrv",
+  "hostname": "_mongodb._tcp.cluster0.ppt7z.mongodb.net"
+}
+```
+## Error
+.
+Error in connecting to database
+## Error
+.
+##2024-07-28 17:27:53
+.
+```javascript
+{
+  "code": "ECONNREFUSED",
+  "syscall": "querySrv",
+  "hostname": "_mongodb._tcp.cluster0.ppt7z.mongodb.net"
+}
+```
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+A user connected - socket.io
+## Error
+.
+Error fetching categories
+## Error
+.
+##2024-07-28 17:28:30
+.
+```javascript
+{}
+```
+## Error
+.
+Error fetching dishes
+## Error
+.
+##2024-07-28 17:31:56
+.
+```javascript
+{}
+```
+## Error
+.
+Error fetching category
+## Error
+.
+##2024-07-28 17:31:56
+.
+```javascript
+{}
+```
+## Error
+.
+Error fetching dishes
+## Error
+.
+##2024-07-28 17:32:06
+.
+```javascript
+{}
+```
+## Error
+.
+Error fetching category
+## Error
+.
+##2024-07-28 17:32:06
+.
+```javascript
+{}
+```
+## Error
+.
+Error fetching dishes
+## Error
+.
+##2024-07-28 17:32:14
+.
+```javascript
+{}
+```
+## Error
+.
+Error fetching category
+## Error
+.
+##2024-07-28 17:32:15
+.
+```javascript
+{}
+```
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Error
+.
+Error fetching categories
+## Error
+.
+##2024-07-28 17:32:39
+.
+```javascript
+{}
+```
+## Error
+.
+Error fetching categories
+## Error
+.
+##2024-07-28 17:32:49
+.
+```javascript
+{}
+```
+## Error
+.
+Operation `auths.findOne()` buffering timed out after 10000ms
+## Error
+.
+##2024-07-28 17:33:12
+.
+```javascript
+{}
+```
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+Success : connected to database
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+Success : connected to database
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+Success : connected to database
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+Success : connected to database
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+Success : connected to database
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+Success : connected to database
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Error
+.
+Error fetching dish
+## Error
+.
+##2024-07-29 11:19:12
+.
+```javascript
+{
+  "reason": {
+    "type": "ReplicaSetNoPrimary",
+    "servers": {},
+    "stale": false,
+    "compatible": true,
+    "heartbeatFrequencyMS": 10000,
+    "localThresholdMS": 15,
+    "setName": "atlas-11dge0-shard-0",
+    "maxElectionId": "7fffffff0000000000000120",
+    "maxSetVersion": 15,
+    "commonWireVersion": 0,
+    "logicalSessionTimeoutMinutes": null
+  }
+}
+```
+## Error
+.
+Error fetching categories
+## Error
+.
+##2024-07-29 11:19:22
+.
+```javascript
+{
+  "reason": {
+    "type": "ReplicaSetNoPrimary",
+    "servers": {},
+    "stale": false,
+    "compatible": true,
+    "heartbeatFrequencyMS": 10000,
+    "localThresholdMS": 15,
+    "setName": "atlas-11dge0-shard-0",
+    "maxElectionId": "7fffffff0000000000000120",
+    "maxSetVersion": 15,
+    "commonWireVersion": 0,
+    "logicalSessionTimeoutMinutes": null
+  }
+}
+```
+## Error
+.
+Error fetching dish
+## Error
+.
+##2024-07-29 11:19:32
+.
+```javascript
+{
+  "reason": {
+    "type": "ReplicaSetNoPrimary",
+    "servers": {},
+    "stale": false,
+    "compatible": true,
+    "heartbeatFrequencyMS": 10000,
+    "localThresholdMS": 15,
+    "setName": "atlas-11dge0-shard-0",
+    "maxElectionId": "7fffffff0000000000000120",
+    "maxSetVersion": 15,
+    "commonWireVersion": 0,
+    "logicalSessionTimeoutMinutes": null
+  }
+}
+```
+## Error
+.
+Error fetching categories
+## Error
+.
+##2024-07-29 11:19:42
+.
+```javascript
+{
+  "reason": {
+    "type": "ReplicaSetNoPrimary",
+    "servers": {},
+    "stale": false,
+    "compatible": true,
+    "heartbeatFrequencyMS": 10000,
+    "localThresholdMS": 15,
+    "setName": "atlas-11dge0-shard-0",
+    "maxElectionId": "7fffffff0000000000000120",
+    "maxSetVersion": 15,
+    "commonWireVersion": 0,
+    "logicalSessionTimeoutMinutes": null
+  }
+}
+```
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+A user connected - socket.io
+## Error
+.
+##2024-07-29 11:23:57
+.
+```javascript
+{
+  "message": "Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/",
+  "reason": {
+    "type": "ReplicaSetNoPrimary",
+    "servers": {},
+    "stale": false,
+    "compatible": true,
+    "heartbeatFrequencyMS": 10000,
+    "localThresholdMS": 15,
+    "setName": "atlas-11dge0-shard-0",
+    "maxElectionId": null,
+    "maxSetVersion": null,
+    "commonWireVersion": 0,
+    "logicalSessionTimeoutMinutes": null
+  }
+}
+```
+## Error
+.
+Error in connecting to database
+## Error
+.
+##2024-07-29 11:23:57
+.
+```javascript
+{
+  "message": "Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/",
+  "reason": {
+    "type": "ReplicaSetNoPrimary",
+    "servers": {},
+    "stale": false,
+    "compatible": true,
+    "heartbeatFrequencyMS": 10000,
+    "localThresholdMS": 15,
+    "setName": "atlas-11dge0-shard-0",
+    "maxElectionId": null,
+    "maxSetVersion": null,
+    "commonWireVersion": 0,
+    "logicalSessionTimeoutMinutes": null
+  }
+}
+```
+## Error
+.
+Error fetching categories
+## Error
+.
+##2024-07-29 11:26:33
+.
+```javascript
+{}
+```
+## Error
+.
+Error fetching categories
+## Error
+.
+##2024-07-29 11:26:44
+.
+```javascript
+{}
+```
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+A user connected - socket.io
+## Error
+.
+##2024-07-29 11:28:54
+.
+```javascript
+{
+  "message": "Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/",
+  "reason": {
+    "type": "ReplicaSetNoPrimary",
+    "servers": {},
+    "stale": false,
+    "compatible": true,
+    "heartbeatFrequencyMS": 10000,
+    "localThresholdMS": 15,
+    "setName": "atlas-11dge0-shard-0",
+    "maxElectionId": null,
+    "maxSetVersion": null,
+    "commonWireVersion": 0,
+    "logicalSessionTimeoutMinutes": null
+  }
+}
+```
+## Error
+.
+Error in connecting to database
+## Error
+.
+##2024-07-29 11:28:54
+.
+```javascript
+{
+  "message": "Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/",
+  "reason": {
+    "type": "ReplicaSetNoPrimary",
+    "servers": {},
+    "stale": false,
+    "compatible": true,
+    "heartbeatFrequencyMS": 10000,
+    "localThresholdMS": 15,
+    "setName": "atlas-11dge0-shard-0",
+    "maxElectionId": null,
+    "maxSetVersion": null,
+    "commonWireVersion": 0,
+    "logicalSessionTimeoutMinutes": null
+  }
+}
+```
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Error
+.
+Error fetching categories
+## Error
+.
+##2024-07-29 11:36:09
+.
+```javascript
+{}
+```
+## Error
+.
+Error fetching categories
+## Error
+.
+##2024-07-29 11:36:19
+.
+```javascript
+{}
+```
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+Success : connected to database
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
