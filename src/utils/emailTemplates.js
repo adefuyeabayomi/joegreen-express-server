@@ -193,9 +193,201 @@ const reply = (email, replyMessage) => `
   </html>
 `;
 
+// src/utils/emailTemplates.js
+
+const orderConfirmation = (order) => {
+  const { orderId, cartItems, totalCost, phoneNumber, deliveryInfo, narration } = order;
+
+  const itemsHtml = cartItems.map(item => {
+    const addonsHtml = item.addons.map(addon => `
+      <div style="padding: 8px; border: 1px solid #e0e0e0; border-radius: 4px; margin-top: 8px;">
+        <p><strong>${addon.name}</strong></p>
+        <p>Quantity: ${addon.quantity}</p>
+        <p>Price: N${addon.price}</p>
+      </div>
+    `).join('');
+
+    return `
+      <div style="padding: 16px; border: 1px solid #e0e0e0; border-radius: 8px; margin-bottom: 16px;">
+        <h3>${item.name}</h3>
+        <p>Quantity: ${item.quantity}</p>
+        <p>Price: N${item.price}</p>
+        ${addonsHtml ? `<div style="margin-top: 12px;"><h4>Addons:</h4>${addonsHtml}</div>` : ''}
+      </div>
+    `;
+  }).join('');
+
+  return `
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <style>
+        body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+        }
+        .container {
+          width: 80%;
+          margin: 0 auto;
+          padding: 20px;
+        }
+        .header {
+          font-size: 24px;
+          margin-bottom: 20px;
+        }
+        .details {
+          font-size: 16px;
+          margin-top: 20px;
+        }
+        .footer {
+          font-size: 14px;
+          margin-top: 20px;
+          color: #777;
+        }
+      </style>
+    </head>
+    <body>
+      <div class="container">
+        <div class="header">
+          <h1>Order Confirmation</h1>
+          <p>Thank you for your order!</p>
+        </div>
+        <div class="details">
+          <p>Your order ID is: <strong>${orderId}</strong></p>
+          <div>${itemsHtml}</div>
+          <p><strong>Total Cost: N${totalCost}</strong></p>
+          <p><strong>Phone Number:</strong> ${phoneNumber}</p>
+          <p><strong>Delivery Information:</strong> ${deliveryInfo}</p>
+          <p><strong>Narration:</strong> ${narration}</p>
+        </div>
+        <div class="footer">
+          <p>We will notify you once your order is shipped.</p>
+          <p>Best regards,</p>
+          <p>The Team</p>
+        </div>
+      </div>
+    </body>
+    </html>
+  `;
+};
+const paymentStatus = (paymentDetails) => {
+  const { orderId, status } = paymentDetails;
+
+  return `
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <style>
+        /* Add your CSS styling here */
+      </style>
+    </head>
+    <body>
+      <h1>Payment Status Update</h1>
+      <p>We wanted to let you know that the payment status for your order has been updated.</p>
+      <p>Your order ID is: ${orderId}</p>
+      <p>New Payment Status: ${status}</p>
+      <p>If you have any questions, please contact us.</p>
+      <p>Best regards,</p>
+      <p>The Team</p>
+    </body>
+    </html>
+  `;
+};
+
+ const orderCancellation = (orderDetails) => {
+  const { orderId, reason } = orderDetails;
+
+  return `
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <style>
+        /* Add your CSS styling here */
+      </style>
+    </head>
+    <body>
+      <h1>Order Cancellation</h1>
+      <p>We're sorry to inform you that your order has been cancelled.</p>
+      <p>Your order ID was: ${orderId}</p>
+      <p>If you have any questions, please contact us.</p>
+      <p>Best regards,</p>
+      <p>The Team</p>
+    </body>
+    </html>
+  `;
+};
+// Email template function for Order Fulfilled
+const orderFulfilled = (email, order) => `
+    <html>
+    <head>
+        <style>
+            .card {
+                border: 1px solid #ddd;
+                border-radius: 8px;
+                padding: 16px;
+                margin: 10px 0;
+                background: #f9f9f9;
+            }
+            .card-header {
+                font-size: 18px;
+                font-weight: bold;
+            }
+            .card-content {
+                margin-top: 10px;
+            }
+            .card-item {
+                border: 1px solid #ddd;
+                border-radius: 8px;
+                padding: 10px;
+                margin-bottom: 10px;
+                background: #fff;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Your Order has been Fulfilled!</h2>
+        <p>Dear Customer,</p>
+        <p>Your order with the reference <strong>${order.transactionRef}</strong> has been successfully fulfilled and is on its way to you!</p>
+        
+        <div class="card">
+            <div class="card-header">Order Summary</div>
+            <div class="card-content">
+                <p><strong>Delivery Information:</strong> ${order.deliveryInfo}</p>
+                <p><strong>Phone Number:</strong> ${order.phoneNumber}</p>
+                <p><strong>Narration:</strong> ${order.narration || 'N/A'}</p>
+            </div>
+        </div>
+        
+        ${order.cartItems.map(item => `
+            <div class="card-item">
+                <div><strong>Dish:</strong> ${item.name}</div>
+                <div><strong>Description:</strong> ${item.description}</div>
+                <div><strong>Price per Plate:</strong> ${item.price}</div>
+                <div><strong>Quantity:</strong> ${item.quantity}</div>
+                ${item.addons.length > 0 ? `
+                    <div><strong>Addons:</strong></div>
+                    ${item.addons.map(addon => `
+                        <div>${addon.name} (Price: ${addon.price}, Quantity: ${addon.quantity})</div>
+                    `).join('')}
+                ` : ''}
+            </div>
+        `).join('')}
+        
+        <p>Thank you for shopping with us!</p>
+        <p>Best Regards,</p>
+        <p>Your Company Name</p>
+    </body>
+    </html>
+`;
+
 module.exports = {
   welcome,
   verify,
   passwordReset,
-  reply
+  reply,
+  orderConfirmation,
+  paymentStatus,
+  orderCancellation,
+  orderFulfilled
 };

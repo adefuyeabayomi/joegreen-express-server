@@ -14,6 +14,7 @@ const authRoute = require("./routes/auth.route");
 const menuRoute = require("./routes/menu_operations.route")
 const blogRoute = require("./routes/blog_operation.route")
 const customerMessageRoute = require("./routes/customer_messages.route")
+const orderRoute = require('./routes/order.route')
 const profileRoutes = require('./routes/profile.route');
 const YAML = require("yamljs");
 const path = require("path");
@@ -37,13 +38,13 @@ connectDB(database)
   .then(() => logger.infoLogger("Success : connected to database"))
   .catch((err) => {
     logger.errorLogger("Error in connecting to database");
-    logger.errorLogger(err);
+    logger.errorLogger(err)
   });
 
 // create express app
-const app = express();
+const app = express()
 // install middlewares
-app.use(apiLimiter);
+app.use(apiLimiter)
 // CORS configuration
 app.use(cors({
   origin: [
@@ -55,22 +56,23 @@ app.use(cors({
   ],
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"], // Add any methods you're using
   allowedHeaders: ["Content-Type", "Authorization"], // Add any headers you're using
-}));
+}))
 
-app.use(helmet());
-app.use(morgan("combined", { stream: logger.accessLogStream })); // request logger
+app.use(helmet())
+app.use(morgan("combined", { stream: logger.accessLogStream })) // request logger
 app.use(
   "/api-docs",
   swaggerUi.serve,
   swaggerUi.setup(swaggerDocument, { explorer: true }),
-); // swagger documentation setup
-app.use(express.json()); // body parsing middleware
-app.use("/", pingRoute);
-app.use("/auth", authRoute);
-app.use('/profile', profileRoutes);
+) // swagger documentation setup
+app.use(express.json()) // body parsing middleware
+app.use("/", pingRoute)
+app.use("/auth", authRoute)
+app.use('/profile', profileRoutes)
 app.use('/',menuRoute)
 app.use('/blogs',blogRoute)
 app.use('/',customerMessageRoute)
+app.use('/',orderRoute)
 
 // Create HTTP server
 const server = http.createServer(app);
