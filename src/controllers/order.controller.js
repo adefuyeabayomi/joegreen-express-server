@@ -90,7 +90,7 @@ const updateOrder = async (req, res) => {
         const { paymentStatus, cancelled, fulfilled, paymentRef, transactionRef } = req.body;
         
         // Update the order
-        const updatedOrder = await Order.findByIdAndUpdate(orderId, { paymentStatus, cancelled, fulfilled, paymentRef, transactionRef }, { new: true });
+        const updatedOrder = await Order.findByIdAndUpdate(orderId, {...req.body}, { new: true });
         
         // Send Email Notification based on update
         if (fulfilled) {
