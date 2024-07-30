@@ -87,10 +87,10 @@ const sendOrderConfirmationEmail = async (email, orderDetails) => {
 const updateOrder = async (req, res) => {
     try {
         const { orderId } = req.params;
-        const { paymentStatus, cancelled, fulfilled } = req.body;
+        const { paymentStatus, cancelled, fulfilled, paymentRef, transactionRef } = req.body;
         
         // Update the order
-        const updatedOrder = await Order.findByIdAndUpdate(orderId, { paymentStatus, cancelled, fulfilled }, { new: true });
+        const updatedOrder = await Order.findByIdAndUpdate(orderId, { paymentStatus, cancelled, fulfilled, paymentRef, transactionRef }, { new: true });
         
         // Send Email Notification based on update
         if (fulfilled) {
