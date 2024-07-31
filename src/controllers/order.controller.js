@@ -161,13 +161,13 @@ const updateOrder = async (req, res) => {
 // Get All Orders with Search Queries
 const getAllOrders = async (req, res) => {
     try {
-        const { userId, paymentStatus, fulfilled } = req.query;
+        const { userId, paymentStatus, fulfilled, date } = req.query;
 
         // Build the query object based on provided search criteria
         let query = {};
 
         if (userId) {
-            query.user = req.user.userId;
+            query.user = userId; // Use userId from query, not req.user.userId
         }
 
         if (paymentStatus) {
@@ -175,15 +175,28 @@ const getAllOrders = async (req, res) => {
         }
 
         if (fulfilled) {
-            query.fulfilled = fulfilled;
+            query.fulfilled = fulfilled === 'false' ? false : true;
         }
+
+        if (date) {
+            const startDate = new Date(date);
+            const endDate = new Date(date);
+            endDate.setHours(23, 59, 59, 999); // Set end of the day
+
+            query.createdAt = {
+                $gte: startDate,
+                $lte: endDate
+            };
+        }
+
+        console.log(query);
 
         // Fetch orders with the query object and populate user details
         const orders = await Order.find(query);
 
         res.status(200).json(orders);
     } catch (error) {
-        console.log({error})
+        console.log({ error });
         res.status(500).json({ error: error.message });
     }
 };

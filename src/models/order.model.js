@@ -29,7 +29,7 @@ const orderSchema = new Schema({
   paymentRef: { type: String, unique: true },
   paymentStatus: { type: String, enum: ['Pending', 'Completed', 'Failed'], default: 'Pending' },
   cancelled: { type: Boolean, default: false },
-  fufilled: { type: Boolean, default: false },
+  fulfilled: { type: Boolean, default: false },
   user: { type: Schema.Types.ObjectId, ref: 'User', required: true },
 }, { timestamps: true });
 

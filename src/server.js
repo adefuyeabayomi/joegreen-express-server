@@ -46,17 +46,7 @@ const app = express()
 // install middlewares
 app.use(apiLimiter)
 // CORS configuration
-app.use(cors({
-  origin: [
-    "http://localhost:5173",
-    "http://localhost:5174",
-    "https://joegreencafe.com",
-    "https://joegreen-admin.netlify.app",
-    "https://joegreen-cafe.netlify.app",
-  ],
-  methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"], // Add any methods you're using
-  allowedHeaders: ["Content-Type", "Authorization"], // Add any headers you're using
-}))
+app.use(cors())
 
 app.use(helmet())
 app.use(morgan("combined", { stream: logger.accessLogStream })) // request logger
@@ -79,7 +69,7 @@ const server = http.createServer(app);
 
 const io = socketIo(server, {
   cors: {
-    origin: 'http://localhost:5173', // Replace with your frontend URL
+    origin: '*', // Replace with your frontend URL
     methods: ['GET', 'POST'],
   },
 });
