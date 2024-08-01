@@ -744,3 +744,169 @@ Server running on http://localhost:8080
 ## Info 
 .
 Success : connected to database
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+Success : connected to database
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Error
+.
+##2024-08-01 14:13:01
+.
+```javascript
+{
+  "code": "ESERVFAIL",
+  "syscall": "querySrv",
+  "hostname": "_mongodb._tcp.cluster0.ppt7z.mongodb.net"
+}
+```
+## Error
+.
+Error in connecting to database
+## Error
+.
+##2024-08-01 14:13:01
+.
+```javascript
+{
+  "code": "ESERVFAIL",
+  "syscall": "querySrv",
+  "hostname": "_mongodb._tcp.cluster0.ppt7z.mongodb.net"
+}
+```
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+mongodb+srv://adefuyeabayomi:omolewa9@cluster0.ppt7z.mongodb.net/joegreenDb?retryWrites=true&w=majority&appName=Cluster0
+## Info 
+.
+Success: connected to database
+## Info 
+.
+Server running on http://localhost:8080
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+Success : connected to database
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
+## Info 
+.
+A user connected - socket.io
+## Info 
+.
+User Disconnected
