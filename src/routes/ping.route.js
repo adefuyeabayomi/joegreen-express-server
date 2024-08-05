@@ -20,4 +20,7 @@ router.get("/clear-request-logs", pingController.clearRequestLogs);
 // Route to clear app logs
 router.get("/clear-app-logs", pingController.clearAppLogs);
 
+// Route to clear app logs
+router.post("/class-enrollment", pingController.forwardEduEnrollment);
+
 module.exports = router;

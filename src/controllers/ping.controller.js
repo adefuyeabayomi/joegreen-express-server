@@ -1,6 +1,9 @@
 const fs = require("fs");
 const path = require("path");
 const logger = require("../utils/logger");
+const config = require("../utils/config")
+const { transporter, mailOptions } = require("../functions/nodemailer.config");
+const emailTemplates = require("../utils/emailTemplates");
 
 // Controller for the ping endpoint
 const ping = (req, res) => {
@@ -70,6 +73,24 @@ const clearAppLogs = (req, res) => {
   });
 };
 
+const forwardEduEnrollment = async (req,res) => {
+  let {course, name, email, phoneNumber } = req.body
+  try {
+    // Send welcome email
+    const eduEnrollOptions = {
+      ...mailOptions,
+      to: 'adefuyeabayomi16@gmail.com',
+      subject: "New Enrollment " + config.companyName,
+      html: emailTemplates.eduEnrollment(name,email,course,phoneNumber),
+    };
+    await transporter.sendMail(eduEnrollOptions);
+    res.status(200).send({message: 'Registration Successful'});
+  }
+  catch (error){
+    return res.status(500).send({error: error.message, message: 'Unable to process request'});
+  }
+}
+
 module.exports = {
   ping,
   status,
@@ -77,4 +98,5 @@ module.exports = {
   getAppLogs,
   clearRequestLogs,
   clearAppLogs,
+  forwardEduEnrollment
 };

@@ -381,6 +381,14 @@ const orderFulfilled = (email, order) => `
     </html>
 `;
 
+const eduEnrollment  = (name,email,course,phoneNumber) => {
+  return `
+    <div>
+    
+    </div>
+  `
+}
+
 module.exports = {
   welcome,
   verify,
@@ -389,5 +397,6 @@ module.exports = {
   orderConfirmation,
   paymentStatus,
   orderCancellation,
-  orderFulfilled
+  orderFulfilled,
+  eduEnrollment
 };
