@@ -67,7 +67,8 @@ function verify(name, userId, verifyToken) {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Verify Email</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"><style>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <style>
     .w-max-content {
       width: max-content
     }
@@ -188,7 +189,9 @@ const reply = (email, replyMessage) => `
     <p>Dear User,</p>
     <p>Thank you for reaching out to us. Here is our reply to your message:</p>
     <blockquote>${replyMessage}</blockquote>
-    <p>Best regards,<br>Your Company</p>
+    <p>Best regards,<br>Joegreen Cafeteria</p>
+    <div style="height: 20px;"></div>
+    <small><i>For support, contact us via</i> <br>Company Mail: joegreencafeteriaservice@gmail.com <br> Call: 0916478 0187, 07043536861 </small>
   </body>
   </html>
 `;
@@ -196,8 +199,20 @@ const reply = (email, replyMessage) => `
 // src/utils/emailTemplates.js
 
 const orderConfirmation = (order) => {
-  const { orderId, cartItems, totalCost, phoneNumber, deliveryInfo, narration } = order;
+  const { cartItems, phoneNumber, deliveryInfo, narration } = order;
 
+  const calculateGrandTotal = (cartItems) => {
+    return cartItems.reduce((grandTotal, item) => {
+      const addonsTotalPrice = item.addons.reduce((total, addon) => {
+        return total + addon.price * addon.quantity;
+      }, 0);
+      const totalCostPerPlate = item.price + addonsTotalPrice;
+      const itemTotalCost = totalCostPerPlate * item.quantity;
+      return grandTotal + itemTotalCost;
+    }, 0);
+  };
+  let totalCost = calculateGrandTotal(order.cartItems)
+  
   const itemsHtml = cartItems.map(item => {
     const addonsHtml = item.addons.map(addon => `
       <div style="padding: 8px; border: 1px solid #e0e0e0; border-radius: 4px; margin-top: 8px;">
@@ -254,7 +269,7 @@ const orderConfirmation = (order) => {
           <p>Thank you for your order!</p>
         </div>
         <div class="details">
-          <p>Your order ID is: <strong>${orderId}</strong></p>
+          <p>Your order ID is: <strong>${order._id}</strong></p>
           <div>${itemsHtml}</div>
           <p><strong>Total Cost: N${totalCost}</strong></p>
           <p><strong>Phone Number:</strong> ${phoneNumber}</p>
@@ -265,6 +280,8 @@ const orderConfirmation = (order) => {
           <p>We will notify you once your order is shipped.</p>
           <p>Best regards,</p>
           <p>The Team</p>
+        <div style="height: 20px;"></div>
+        <small><i>For support, contact us via</i> <br>Company Mail: joegreencafeteriaservice@gmail.com <br> Call: 0916478 0187, 07043536861 </small>
         </div>
       </div>
     </body>
@@ -283,13 +300,15 @@ const paymentStatus = (paymentDetails) => {
       </style>
     </head>
     <body>
-      <h1>Payment Status Update</h1>
+      <h1>We have recieved your payment</h1>
       <p>We wanted to let you know that the payment status for your order has been updated.</p>
       <p>Your order ID is: ${orderId}</p>
       <p>New Payment Status: ${status}</p>
-      <p>If you have any questions, please contact us.</p>
       <p>Best regards,</p>
       <p>The Team</p>
+      
+    <div style="height: 20px;"></div>
+    <small><i>For support, contact us via</i> <br>Company Mail: joegreencafeteriaservice@gmail.com <br> Call: 0916478 0187, 07043536861 </small>
     </body>
     </html>
   `;
@@ -310,9 +329,10 @@ const paymentStatus = (paymentDetails) => {
       <h1>Order Cancellation</h1>
       <p>We're sorry to inform you that your order has been cancelled.</p>
       <p>Your order ID was: ${orderId}</p>
-      <p>If you have any questions, please contact us.</p>
       <p>Best regards,</p>
       <p>The Team</p>
+    <div style="height: 20px;"></div>
+    <small><i>For support, contact us via</i> <br>Company Mail: joegreencafeteriaservice@gmail.com <br> Call: 0916478 0187, 07043536861 </small>
     </body>
     </html>
   `;
@@ -359,7 +379,9 @@ const orderFulfilled = (email, order) => `
             </div>
         </div>
         
-        ${order.cartItems.map(item => `
+        ${order.cartItems.map(item => {
+          if (item.quantity == 0) return ''
+            return `
             <div class="card-item">
                 <div><strong>Dish:</strong> ${item.name}</div>
                 <div><strong>Description:</strong> ${item.description}</div>
@@ -372,7 +394,8 @@ const orderFulfilled = (email, order) => `
                     `).join('')}
                 ` : ''}
             </div>
-        `).join('')}
+        `}).join('')
+      }
         
         <p>Thank you for shopping with us!</p>
         <p>Best Regards,</p>
@@ -381,13 +404,152 @@ const orderFulfilled = (email, order) => `
     </html>
 `;
 
-const eduEnrollment  = (name,email,course,phoneNumber) => {
+const eduEnrollment = (name, email, course, phoneNumber) => {
   return `
-    <div>
-    
-    </div>
-  `
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>New Enrollment Notification</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                line-height: 1.6;
+                color: #333;
+                margin: 0;
+                padding: 0;
+                background-color: #f4f4f4;
+            }
+            .container {
+                width: 90%;
+                max-width: 600px;
+                margin: 0 auto;
+                background: #fff;
+                padding: 20px;
+                border-radius: 8px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+            .header {
+                text-align: center;
+                padding-bottom: 20px;
+            }
+            .header h1 {
+                margin: 0;
+                color: #333;
+            }
+            .content {
+                font-size: 16px;
+                color: #555;
+            }
+            .content p {
+                margin: 0 0 10px;
+            }
+            .footer {
+                text-align: center;
+                margin-top: 20px;
+                font-size: 14px;
+                color: #777;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h1>New Enrollment Notification</h1>
+            </div>
+            <div class="content">
+                <p>Hello Admin,</p>
+                <p>We have a new enrollment. Here are the details:</p>
+                <p><strong>Name:</strong> ${name}</p>
+                <p><strong>Email:</strong> ${email}</p>
+                <p><strong>Course:</strong> ${course}</p>
+                <p><strong>Phone Number:</strong> ${phoneNumber}</p>
+                <p>Please review the enrollment details and take the necessary actions.</p>
+                <p>Best regards,<br>Your Education Team</p>
+            </div>
+            <div class="footer">
+                <p>Company Name | Address | Phone</p>
+            </div>
+        </div>
+    </body>
+    </html>
+  `;
 }
+
+const eduEnrollmentStudent = (name, email, course, phoneNumber) => {
+  return `
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Enrollment Confirmation</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                line-height: 1.6;
+                color: #333;
+                margin: 0;
+                padding: 0;
+                background-color: #f4f4f4;
+            }
+            .container {
+                width: 90%;
+                max-width: 600px;
+                margin: 0 auto;
+                background: #fff;
+                padding: 20px;
+                border-radius: 8px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+            .header {
+                text-align: center;
+                padding-bottom: 20px;
+            }
+            .header h1 {
+                margin: 0;
+                color: #333;
+            }
+            .content {
+                font-size: 16px;
+                color: #555;
+            }
+            .content p {
+                margin: 0 0 10px;
+            }
+            .footer {
+                text-align: center;
+                margin-top: 20px;
+                font-size: 14px;
+                color: #777;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h1>Enrollment Confirmation</h1>
+            </div>
+            <div class="content">
+                <p>Dear ${name},</p>
+                <p>Thank you for enrolling in our course. Here are the details of your enrollment:</p>
+                <p><strong>Course:</strong> ${course}</p>
+                <p><strong>Email:</strong> ${email}</p>
+                <p><strong>Phone Number:</strong> ${phoneNumber}</p>
+                <p>If you have any questions or need further assistance, please feel free to contact us.</p>
+                <p>Best regards,<br>Your Education Team</p>
+            </div>
+            <div class="footer">
+                <p>Company Name | Address | Phone</p>
+            </div>
+        </div>
+    </body>
+    </html>
+  `;
+}
+
+
 
 module.exports = {
   welcome,
