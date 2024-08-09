@@ -700,6 +700,70 @@ paths:
         500:
           description: Internal Server Error
 
+  /resend-verification-email:
+    post:
+      tags:
+        - Auth
+      summary: Resend verification email
+      description: Resends a verification email to a user if the user is found and has not been verified yet.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                email:
+                  type: string
+                  format: email
+                  example: user@example.com
+                  description: The email address of the user to whom the verification email will be sent.
+      responses:
+        '200':
+          description: Verification email sent successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: Verification email sent
+                    description: Success message indicating the verification email was sent.
+        '400':
+          description: Bad Request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: Invalid email format
+                    description: Error message for invalid email or already verified email.
+        '404':
+          description: User Not Found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: User not found
+                    description: Error message when the user is not found in the database.
+        '500':
+          description: Internal Server Error
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: Server error
+                    description: Error message indicating a server error occurred.
+
   /:
     get:
       summary: Performs a ping request
